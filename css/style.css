@@ -1,0 +1,95 @@
+/* css */
+
+body {
+    font-family: helvetica, sans-serif;
+    white-space: nowrap;
+    background: linear-gradient(to bottom, white, #c9c9c9);
+    height: 100vmax;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    font-weight: bold;
+  }
+
+  h5 {
+      padding: 75px 0 0 10px;
+      margin: 0;
+      font-size: 40px;
+      font-weight: 100;
+  }
+
+  h1 {
+      padding: 0;
+      margin: 0;
+      font-size: 175px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  /* about */
+
+.about {
+    white-space: nowrap;
+}
+
+.aboutimg {
+    margin: 0px;
+    padding: 50px 0 0 75px;
+    float: left;
+    max-height: 550px;
+    max-width: 450px;
+}
+
+.abouttxt {
+    margin: 0px;
+    padding: 75px 75px 50px 0;
+    float: right;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2.5em;
+}
+
+/*work*/
+
+h3 {
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.workphotos {
+    margin: 0px;
+    padding: 25px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+footer {
+    bottom: 0px;
+    position: absolute;
+    float: left;
+}
