@@ -89,7 +89,8 @@ h3 {
 }
 
 footer {
-    bottom: 0px;
-    position: absolute;
-    float: left;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:60px;
 }
